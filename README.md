@@ -108,16 +108,16 @@ systemd unit. maybe the wireplumber config options are under pipewire in NixOS
 options?
 
 I have designed a very basic "mount" for the modem and antenna, and as of writing
-it is printing, it however still need the following:
-    * A easy method of mounting to a laptop with little stuff left attached to the
-    laptop
-    * A lid so the Modem and Antenna don't fall out
-    * A chamfer so it can easily slide into backpacks without catchaing.
-    * A method of holding the usb extension cable, so it doesn't get accidentally
-    pulled out, this will be adjustable also so it can used to catch different usb
-    extension cables, this may be unnessacy however as a higher quality extension
-    cable may not be liable to fall out, and I plan to get a better one as mine is
-    too long
+it is printing, the Freecad file should be in the files directory.
+it however still need the following:
+- A easy method of mounting to a laptop with little stuff left attached to the laptop
+- A lid so the Modem and Antenna don't fall out
+- A chamfer so it can easily slide into backpacks without catchaing.
+- A method of holding the usb extension cable, so it doesn't get accidentally
+pulled out, this will be adjustable also so it can used to catch different usb
+extension cables, this may be unnessacy however as a higher quality extension
+cable may not be liable to fall out, and I plan to get a better one as mine is
+too long
 
 I should also make and/or enable systemd units for chatty and gnome-calls so thoses
 don't need to be started manually. I'm not sure if these already exist and simply
@@ -128,11 +128,11 @@ The final issue I see for now is that the a MMS dependeincy for chatty isn't pac
 I should be able to figure that out relativly easy.
 
 So tldr to do:
-    * Figured out how to configure wireplumber on NixOS and automatically route the
-    audio via it, or find a different method
-    * If it works mitigate the USB audio issues on suspend by disabling and
-    reenabling the audio, either on recieving/sending a call or on wake from suspend
-    * Make or Enable systemd units for chatty and gnome-calls
-    * Find out why and fix why I can't recieve sms without previously sending someone
-    a message
-    * Finish the 3D printed case for the Modem.
+- Figured out how to configure wireplumber on NixOS and automatically route the audio
+via it, or find a different method
+- If it works mitigate the USB audio issues on suspend by disabling and reenabling the
+audio, either on recieving/sending a call or on wake from suspend
+- Make or Enable systemd units for chatty and gnome-calls
+- Find out why and fix why I can't recieve sms without previously sending someone a
+message
+- Finish the 3D printed case for the Modem.
