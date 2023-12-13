@@ -136,3 +136,6 @@ audio, either on recieving/sending a call or on wake from suspend
 - Find out why and fix why I can't recieve sms without previously sending someone a
 message
 - Finish the 3D printed case for the Modem.
+
+Ps: I'm not good at markdown nor writing, and grammar/syntax corrections would be
+apprecieated in a pr
