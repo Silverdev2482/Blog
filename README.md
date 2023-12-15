@@ -139,3 +139,13 @@ message
 
 Ps: I'm not good at markdown nor writing, and grammar/syntax corrections would be
 apprecieated in a pr
+
+### 2023/12/14
+
+Sorry for missing the last blog, not much has happened, I printed the part and some
+dimesions allow for too much wiggle room of the modem and squeeze the antenna, I
+have adjusted the dimesions, along with moving the modem closer to the antenna to make
+it smaller, I also added a few dependencies to my local nipkgs for chatty and I can
+send MMS but the recipent doesn't recieve it. I also want to get gnome-contacts
+working but can't figure it out. I haven't messed with wireplumber at all. so not much
+has been happening lately.
