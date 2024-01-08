@@ -149,3 +149,35 @@ it smaller, I also added a few dependencies to my local nipkgs for chatty and I 
 send MMS but the recipent doesn't recieve it. I also want to get gnome-contacts
 working but can't figure it out. I haven't messed with wireplumber at all. so not much
 has been happening lately.
+
+### 2023/12/19
+
+Still not much has happened now, I should have stated but my testing is pretty poor.
+I am not having any problems with sending or recieving, even if a message hasn't been
+sent before. I think I probably should have waited 30 more seconds to see if I have
+still have problems recieving.
+
+I have been daily driving this modem on my laptop without a phone. It the cell service
+works ok but without a proper mount it is very inconvientent. My stupid laptop disables
+the internal microphone if an external one is plugged in, even if it is the worst earbud
+microphone known to mankind so this is a problem. Texting without mms works fine thought
+but quickly checking stuff is annoying.
+
+I have messed with the nix package previously and I got
+the icons to work. I think libadwiatia is what was needed for that but I tried adding
+mmsd and it appears to do nothing
+
+### 2023/1/07
+
+Hello I am back, I haven't done much over christmas and feel kinda bad about it, Just
+stayed at home and wasn't being productive, but lets be optimistic, I can be productive,
+So what have I done so far? I don't remember if I have said this but my tinkering in
+nixpkgs is basically just adding and updating dependencies/programs. This has produced
+no notable result so far. However my minecraft server has grown in popularity. It is
+currently running on a i5 2nd generation computer with a 4tb 5400 rpm hard drive and 8
+gigs of ddr3, my friend who got this one bought another friends computer with a 7th gen
+i5, 256gb ssd, and 32gb of ddr4 ram. My friend bought it for 20$ but I think we stole it.
+I said I would make a guide for nix-minecraft and transfer some docs, and this should be
+a great time to do it, I'll make a tutorials directory in this blog, I also want to make
+a dactly manuform with a track ball. Either using [this repo](https://github.com/bullwinkle3000/dactyl-keyboard)
+or the cosmos keyboard configurator once that gets better. 
