@@ -1,3 +1,4 @@
+## WARNING: MOSTLY UNCOMPLETED, WIP
 ## Modded Minecraft Fabric Server on NixOS Using [nix-minecraft](https://github.com/Infinidoge/nix-minecraft)
 
 I use nix-minecraft to run my minecraft server, This should be a somewhat
